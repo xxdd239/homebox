@@ -55,7 +55,7 @@ export const SpeedIndicator = memo(function SpeedIndicator({
         `}
         intent={pbp.intent}
       >
-        {speed !== undefined ? formatter(speed) : 'Waiting...'}
+        {speed !== undefined ? formatter(speed) : '等待测试...'}
       </Tag>
     </div>
   )

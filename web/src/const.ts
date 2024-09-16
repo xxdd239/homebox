@@ -1,6 +1,6 @@
 import { Config, SpeedMode, RateUnit, Theme } from './types'
 
-export const BASE_URL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3300'
+export const BASE_URL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost'
 export const CONFIG_STORAGE_KEY = 'homebox:config'
 
 const systemTheme = (() => {

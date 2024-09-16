@@ -12,7 +12,7 @@ const FooterContainer = styled.div`
 export function Footer() {
   return (
     <FooterContainer>
-      测试结果通常只能代表当前设备性能下所能跑到的实际数据， 没有任何理论参考价值，不能作为链路理论数据使用。
+                             XPON-TEST
     </FooterContainer>
   )
 }

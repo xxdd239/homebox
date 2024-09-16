@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Fetch all tags
+        run: git fetch --tags
+
       - name: Print env
         run: |
           corepack enable
@@ -35,7 +38,6 @@ jobs:
 
       - name: Upload to Release
         run: |
-          make pack-arch TAG=${{ github.ref }}
+          make pack-arch TAG=${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-

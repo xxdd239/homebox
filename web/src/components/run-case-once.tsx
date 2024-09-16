@@ -38,11 +38,11 @@ enum RunningStep {
 }
 
 const RunningStepLabels: Record<RunningStep, string> = {
-  [RunningStep.NONE]: 'Start',
-  [RunningStep.DOWNLOAD]: 'Downloading',
-  [RunningStep.PING]: 'Pinging',
-  [RunningStep.UPLOAD]: 'Uploading',
-  [RunningStep.DONE]: 'Restart',
+  [RunningStep.NONE]: '开始测试',
+  [RunningStep.DOWNLOAD]: '下行测试中...',
+  [RunningStep.PING]: 'ping测试',
+  [RunningStep.UPLOAD]: '上行测试中...',
+  [RunningStep.DONE]: '重新测试',
 }
 
 export function RunCaseOnce() {

@@ -5,6 +5,7 @@ on:
       - master
 
 
+
 jobs:
   build-binary:
     runs-on: ubuntu-latest

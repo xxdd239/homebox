@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "@xgheaven/eslint-config-xgheaven",
-    "@xgheaven/eslint-config-xgheaven/typescript"
-  ]
-}

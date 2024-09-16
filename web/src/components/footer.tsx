@@ -12,7 +12,7 @@ const FooterContainer = styled.div`
 export function Footer() {
   return (
     <FooterContainer>
-                             XPON-TEST
+                             XPON-TEST 2024
     </FooterContainer>
   )
 }

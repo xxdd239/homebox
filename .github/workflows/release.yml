@@ -2,7 +2,7 @@ name: Release Action
 on:
   push:
     branches:
-      - '*'
+      - master
 
 
 jobs:

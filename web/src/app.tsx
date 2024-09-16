@@ -91,8 +91,8 @@ export function App() {
                 display: flex;
               `}
             >
-              <CaseRunner title='Download' name='下行速率' />
-              <CaseRunner title='Upload' name='上行速率' />
+              <CaseRunner title='下行速率' name='Download' />
+              <CaseRunner title='上行速率' name='Upload' />
             </div>
           )}
           <Footer />

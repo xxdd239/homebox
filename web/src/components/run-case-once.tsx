@@ -118,12 +118,12 @@ export function RunCaseOnce() {
         </$HeaderCase>
 
         <$HeaderCase>
-          <$CaseTitle>Download</$CaseTitle>
+          <$CaseTitle>下行速率</$CaseTitle>
           <$CaseContent>{step >= RunningStep.DOWNLOAD ? rateFormatters[unit](dlRate) : '--'}</$CaseContent>
         </$HeaderCase>
 
         <$HeaderCase>
-          <$CaseTitle>Upload</$CaseTitle>
+          <$CaseTitle>上行速率</$CaseTitle>
           <$CaseContent>{step >= RunningStep.UPLOAD ? rateFormatters[unit](ulRate) : '--'}</$CaseContent>
         </$HeaderCase>
       </$Header>

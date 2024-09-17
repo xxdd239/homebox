@@ -17,9 +17,9 @@ const systemTheme = (() => {
 
 export const DEFAULT_CONFIG: Config = {
   duration: 10 * 1000,
-  threadCount: 4,
+  threadCount: 1,
   speedMode: SpeedMode.LOW,
-  packCount: 128,
+  packCount: 64,
   parallel: 3,
   unit: RateUnit.BIT,
   theme: systemTheme,
